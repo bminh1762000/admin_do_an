@@ -1,0 +1,20 @@
+.product-list {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    .product-list-header-title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .product-list-header-button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .product-list-header-button-add {
+        margin-right: 10px;
+      }
+    }
+  }
+}
